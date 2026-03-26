@@ -1,8 +1,6 @@
+# Privacy Policy for SumyFuel
 
-
-# Privacy Policy for FuelCheck
-
-_Last updated: [26.03.2026]
+_Last updated: March 26, 2026_
 
 This Privacy Policy describes how the **SumyFuel** mobile application (the “App”) collects, uses, and shares information when you use it.
 
@@ -14,7 +12,7 @@ By using the App, you agree to the practices described in this Policy.
 
 - The App is designed to show fuel prices, gas stations in Sumy, and help you track your fuel expenses.
 - The App does not require registration or an account.
-- I do not store your personal data on my own servers. Most data is stored locally on your device, and some technical/usage data may be processed by third‑party services (Google/Firebase/AdMob) for analytics, advertising, and crash diagnostics.
+- I do not store your personal data on my own servers. Most data is stored locally on your device, and some technical/usage data may be processed by third-party services (Google/Firebase/AdMob) for analytics, advertising, and crash diagnostics.
 
 ---
 
@@ -53,7 +51,7 @@ Requests to this API do not include information that directly identifies you (su
 ### 2.3. Location and Maps
 
 - The App **does not request location permissions** (`ACCESS_FINE_LOCATION` / `ACCESS_COARSE_LOCATION`) and **does not track your GPS location**.
-- The map displays coordinates of gas stations provided by the remote API. For some stations, the App may use Android’s built‑in reverse geocoding to derive a street address from the station’s coordinates, not from your location.
+- The map displays coordinates of gas stations provided by the remote API. For some stations, the App may use Android’s built-in reverse geocoding to derive a street address from the station’s coordinates, not from your location.
 
 ### 2.4. Analytics
 
@@ -77,7 +75,7 @@ Event parameters may include:
 The App does **not** send your name, email, phone number, payment card numbers, or any other obvious personal text fields to analytics.
 
 Data collection and processing is performed by Google in accordance with their privacy policies:  
-<https://policies.google.com/privacy>
+https://policies.google.com/privacy
 
 ### 2.5. Crash Reports (Crashlytics)
 
@@ -90,7 +88,7 @@ The App uses **Firebase Crashlytics** to diagnose crashes and errors. When a cra
 These reports are used solely to fix bugs and improve stability. I do not use crash data to identify individual users.
 
 More details:  
-<https://firebase.google.com/support/privacy>
+https://firebase.google.com/support/privacy
 
 ### 2.6. Advertising (Google AdMob)
 
@@ -104,7 +102,7 @@ The App displays banner and interstitial ads using **Google AdMob**. For ad deli
 The exact scope and use of data is governed by Google’s own policies. I do not have direct access to all raw data processed by AdMob.
 
 More details:  
-<https://policies.google.com/technologies/ads>
+https://policies.google.com/technologies/ads
 
 ---
 
@@ -133,13 +131,13 @@ We use data for the following purposes:
 
 I do **not sell or share** your personal data with third parties for their own marketing purposes.
 
-Third‑party services that may process data (in scope of their SDKs) include:
+Third-party services that may process data (in scope of their SDKs) include:
 
-- **Google Firebase Analytics** – usage analytics;
-- **Google Firebase Crashlytics** – crash reporting;
-- **Google AdMob** – ad delivery;
-- **Google Maps and related Google services** – maps and map APIs;
-- **Hosting provider of the remote fuel API** – providing fuel and station data.
+- Google Firebase Analytics – usage analytics;
+- Google Firebase Crashlytics – crash reporting;
+- Google AdMob – ad delivery;
+- Google Maps and related Google services – maps and map APIs;
+- Hosting provider of the remote fuel API – providing fuel and station data.
 
 These services process data according to their own privacy policies.
 
@@ -149,14 +147,14 @@ These services process data according to their own privacy policies.
 
 - Fuel logs, favorites, and other user data are stored locally on your device.
 - Some app data may be included in Android’s system backup (if enabled in your device settings).
-- Security is provided by built‑in Android mechanisms and the security measures of third‑party SDKs (Firebase, AdMob, etc.).
+- Security is provided by built-in Android mechanisms and the security measures of third-party SDKs (Firebase, AdMob, etc.).
 - While reasonable measures are taken, no method of transmission or storage is 100% secure.
 
 ---
 
 ## 6. Your Rights and Controls
 
-Because the App does not use accounts or server‑side profiles, you control your data mainly through your device:
+Because the App does not use accounts or server-side profiles, you control your data mainly through your device:
 
 - **Delete data**:
   - delete individual expense entries inside the App;
@@ -168,7 +166,7 @@ Because the App does not use accounts or server‑side profiles, you control you
   - limit personalized ads in your Google account and device settings (limit ad tracking);
   - disable backup for the App in your device settings if desired.
 
-If you have questions about data or want more details about what may be associated with your device via Firebase/AdMob, you can contact me at:  
+If you have questions about data or want more details, you can contact me at:  
 **viashmadev@gmail.com**
 
 ---
