@@ -1,8 +1,14 @@
-# Privacy Policy for SumyFuel
+---
+layout: page
+title: Privacy Policy
+description: Privacy Policy for the FuelCheck Sumy Android application
+---
+
+# Privacy Policy for FuelCheck Sumy
 
 _Last updated: March 26, 2026_
 
-This Privacy Policy describes how the **SumyFuel** mobile application (the “App”) collects, uses, and shares information when you use it.
+This Privacy Policy describes how the **FuelCheck Sumy** mobile application (the “App”) collects, uses, and shares information when you use it.
 
 By using the App, you agree to the practices described in this Policy.
 
@@ -159,7 +165,7 @@ Because the App does not use accounts or server-side profiles, you control your 
 - **Delete data**:
   - delete individual expense entries inside the App;
   - clear the App’s data via Android settings  
-    (Settings → Apps → SumyFuel → Storage → Clear data);
+    (Settings → Apps → FuelCheck Sumy → Storage → Clear data);
   - uninstall the App (this removes all local data).
 
 - **Control analytics and ads**:
