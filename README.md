@@ -1,12 +1,8 @@
----
-layout: page
-title: Privacy Policy
-description: Privacy Policy for the SumyFuel Android application
----
 
-# Privacy Policy for SumyFuel
 
-_Last updated: [DATE]_
+# Privacy Policy for FuelCheck
+
+_Last updated: [26.03.2026]
 
 This Privacy Policy describes how the **SumyFuel** mobile application (the “App”) collects, uses, and shares information when you use it.
 
