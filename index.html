@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,24 +38,29 @@
             color: var(--text-secondary);
             font-size: 1.2rem;
             margin-bottom: 30px;
+            font-weight: 300;
         }
         .bio {
             margin-bottom: 40px;
             color: var(--text-secondary);
+            font-size: 1.1rem;
         }
         .links {
             display: flex;
             flex-direction: column;
             gap: 15px;
+            align-items: center;
         }
         .link-card {
             background: rgba(255, 255, 255, 0.05);
-            padding: 15px;
+            padding: 15px 30px;
             border-radius: 12px;
             text-decoration: none;
             color: var(--text-primary);
             border: 1px solid rgba(255, 255, 255, 0.1);
             transition: all 0.3s ease;
+            width: fit-content;
+            min-width: 250px;
         }
         .link-card:hover {
             border-color: var(--accent);
@@ -64,47 +69,38 @@
         }
         .link-card span {
             display: block;
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             color: var(--accent);
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
             margin-bottom: 5px;
         }
         footer {
-            margin-top: 50px;
+            margin-top: 60px;
             font-size: 0.8rem;
             color: var(--text-secondary);
+            opacity: 0.6;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Viacheslav Shmatenko</h1>
-        <p class="tagline">Android Engineer / Mobile Developer</p>
+        <p class="tagline">Android Engineer</p>
         
         <div class="bio">
-            Специализируюсь на создании высокопроизводительных мобильных приложений. Исследую возможности Kotlin Multiplatform и современные методы разработки с использованием ИИ.
+            Focused on building high-performance mobile experiences and exploring the future of Kotlin Multiplatform.
         </div>
 
         <div class="links">
-            <a href="https://neverfuun.github.io/fuelcheck/privacy_policy.html" class="link-card">
-                <span>Legal</span>
-                Privacy Policy for FuelCheck Sumy
-            </a>
-            
             <a href="mailto:viashmadev@gmail.com" class="link-card">
                 <span>Contact</span>
                 viashmadev@gmail.com
             </a>
-
-            <a href="https://github.com/neverfuun" class="link-card">
-                <span>GitHub</span>
-                See my latest projects
-            </a>
         </div>
 
         <footer>
-            &copy; 2026 Viacheslav Shmatenko. All rights reserved.
+            &copy; 2026 Viacheslav Shmatenko
         </footer>
     </div>
 </body>
