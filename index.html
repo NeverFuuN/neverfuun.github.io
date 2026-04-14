@@ -1,10 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <title>NeverFuun Dev</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viacheslav Shmatenko | Android Developer</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .tagline {
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .bio {
+            margin-bottom: 40px;
+            color: var(--text-secondary);
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .link-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-primary);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        .link-card:hover {
+            border-color: var(--accent);
+            background: rgba(56, 189, 248, 0.05);
+            transform: translateY(-2px);
+        }
+        .link-card span {
+            display: block;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to NeverFuun Developer Page</h1>
-    <p>Mobile applications development and support.</p>
+    <div class="container">
+        <h1>Viacheslav Shmatenko</h1>
+        <p class="tagline">Android Engineer / Mobile Developer</p>
+        
+        <div class="bio">
+            Специализируюсь на создании высокопроизводительных мобильных приложений. Исследую возможности Kotlin Multiplatform и современные методы разработки с использованием ИИ.
+        </div>
+
+        <div class="links">
+            <a href="https://neverfuun.github.io/fuelcheck/privacy_policy.html" class="link-card">
+                <span>Legal</span>
+                Privacy Policy for FuelCheck Sumy
+            </a>
+            
+            <a href="mailto:viashmadev@gmail.com" class="link-card">
+                <span>Contact</span>
+                viashmadev@gmail.com
+            </a>
+
+            <a href="https://github.com/neverfuun" class="link-card">
+                <span>GitHub</span>
+                See my latest projects
+            </a>
+        </div>
+
+        <footer>
+            &copy; 2026 Viacheslav Shmatenko. All rights reserved.
+        </footer>
+    </div>
 </body>
 </html>
