@@ -48,6 +48,6 @@ This Privacy Policy may be updated from time to time. If we make material change
 
 ## Contact
 
-For questions or support, please use the current support page linked inside the app:
+If you have any questions or support requests, contact:
 
-[https://sites.google.com/view/dreamscapeai/support](https://sites.google.com/view/dreamscapeai/support)
+**Email:** [viashmadev@gmail.com](mailto:viashmadev@gmail.com)
